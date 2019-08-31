@@ -52,6 +52,7 @@ steps:
     tags: |
       $(version)
       
+      
 - task: AzureCLI@1
   inputs:
     connectedServiceNameARM: 'azureResourceManagerServiceConnection'
